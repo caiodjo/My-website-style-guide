@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'one piece';
+    src: url(../fonts/onepiecefont.ttf) format('truetype');
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'one piece', sans-serif;
+}
+h2, .color-item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+header{
+    margin: 1.75em 0;
+}
+body{
+    margin: 0 10%;
+}
+.container{
+    border: 2px solid gray;
+    padding: 0 .5em;
+    margin: 1em 0;
+}
+ul{
+    padding: 5px;
+}
+.color-item{
+    margin: 20px 2px 20px 0px;
+    padding: 0;
+    display: inline-block;
+    width: 32%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.7em;
+    color: black;
+    font-weight: 400;
+}
+.chapeu{
+    background-color: rgb(228,186,111);
+}
+.pele{
+    background-color: rgb(240 197 164);
+}
+.jaqueta{
+    background-color: rgb(193 51 60);
+    color: white;
+}
+.cinto{
+    background-color: rgb(238 209 76);
+}
+.short{
+    background-color: rgb(80 107 180);
+    color:white
+}
+
+/* Font section Style*/
+p{
+    font-size: 1.25em;
+}
+.bold {
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
+.container div{
+    display: inline-block;
+    width: 45%;
+    
+}
+.nome{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+/* Text Style section*/
+.heading ul{
+    list-style:disc;
+    padding-left: 3em;
+}
